@@ -1,5 +1,5 @@
 import  './NewCollections.css'
-import new_collections from '../assets/new_collections'
+import new_collection from '../assets/new_collections'
 import Item from '../items/Item'
 
 const NewCollections = () => {
@@ -8,7 +8,7 @@ const NewCollections = () => {
         <h1>New Collections</h1>
         <hr />
         <div className="collections">
-            {new_collections.map((item)=>{
+            {new_collection.map((item)=>{
                 return <Item key= {item.id} {...item} />
             })}
         </div>

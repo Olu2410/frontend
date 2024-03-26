@@ -10,9 +10,10 @@ const ShopContextProvider = (props)=>{
     <ShopContext.Provider value={contextValue}>
       {props.children}
     </ShopContext.Provider>
+  
   )
 
 }
 
-export default ShopContextProvider
+export default ShopContextProvider;
  
